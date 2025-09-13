@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bara & Sons Logistics - Leading Transport and Logistics Company",
-  description: "Bara & Sons Logistics is a leading transport and logistics company providing truckload, LTL, expedited services, and temperature controlled hauling across North America.",
+  title: "Bara & Sons Logistics",
+  description: "North America's leading transport and logistics company",
 };
 
 export default function RootLayout({
